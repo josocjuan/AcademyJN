@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#carrusel{
+    height: 25em;
+    overflow: hidden;
+
+}
+.itemCarrusel{
+    height: 25em;
+    position: relative;
+}
+
+.tarjetasCarrusel{
+    background-color: aqua;
+    height: 100%;
+}
+
+.flechasCarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.icoCarr{
+    height: 3em;
+    width: 3em;
+}
+a{
+    text-decoration: none;
+}
+#imgcarr1{
+    height: 100%;
+    width: 100%;
+}
