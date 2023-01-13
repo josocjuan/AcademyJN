@@ -50,39 +50,14 @@ nav{
     padding: 15px 15px;
 }
 
-
-/**
-.nave ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-.nave li{
-    display: inline;
-    text-align: center;
-    margin: 0 10px 0 0;
-}
-.nave li a {
-    padding: 2em 5em;
-    color: #666;
-    background-color: blue;
-    border: 1px solid #ccc;
-    text-decoration: none;
-} 
-
-.nave li a:hover{
-    background-color: #333333;
-    color: #ffffff;
-} 
-*/
 #carrusel{
-    height: 25em;
+    height: 30em;
     overflow: hidden;
     z-index: 1;
 
 }
 .itemCarrusel{
-    height: 25em;
+    height: 30em;
     position: relative; 
 }
 
@@ -108,9 +83,10 @@ nav{
 a{
     text-decoration: none;
 }
-#imgcarr1{
-    height: 100%;
-    width: 100%;
+.imgcarr{
+    width:100%;
+    height:auto;
+
 }
 #c1{
     position: relative;
