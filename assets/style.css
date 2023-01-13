@@ -119,3 +119,7 @@ a{
     display: flex;
     justify-content: center;
 }
+nav{
+    flex: content;
+    
+}
