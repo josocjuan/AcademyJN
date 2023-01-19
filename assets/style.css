@@ -247,3 +247,13 @@ div.euskera{
     border-radius: 5%;
     margin: 1em;
 }
+td.cursos1{
+    height: 4em;
+    width: 20em;
+    text-align: center;
+    font-size: 3em;
+}
+ul.cursos{
+    list-style: none;
+    justify-content: space-around;
+}
