@@ -269,6 +269,47 @@ ul.cursos{
     justify-content: space-around;
 }
 
+/**Metodologia */
+#titmetod{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border: solid 3px lightblue;
+    margin: 1.5% 15%;
+    width: 70%;
+}
+
+article.metod{
+    width: 50%;
+    height: 200px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    border: #ccc solid 1px;
+    background-color: lightblue;
+}
+
+img.imgmetod{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 25px;
+}
+
+article.metod > h3{
+    margin: 25px;
+    margin-bottom: 10px;
+}
+
+article.metod > p{
+    margin: 25px;
+    margin-top: 10px;
+}
+
+div.imgcontainer{
+    text-align: center;
+}
+
 div.prologo{
     width: 34%;
     position: relative;
