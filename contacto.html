@@ -9,8 +9,8 @@
         <header>
             <nav>
                 <ul class="menu-horizontal">
-                    <li><a href=""><img src="img/cabecera.png"></a></li>
-                    <li><a>JN ACADEMY</a></li>
+                    <li><a href="index.html" id="logo"><img src="img/cabecera.png" width="60" height="60" alt="logo"></a></li>
+                    <li><a href="index.html" id="nombre">J&N ACADEMY</a></li>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="cursos.html">Cursos</a></li>
                     <li><a href="metod.html">Metodología</a></li>
@@ -24,7 +24,22 @@
                 </ul>
             </nav>
         </header>
-    
+        <div class="prologo">
+            <p>Puedes ponerte en contacto con nosotros en el <b>teléfono 96123456</b>, enviándonos un <b>correo electrónico</b> a <b>info@jynacademy.com</b>, o bien rellenando el siguiente formulario de contacto. Te responderemos lo antes posible.
+            </p>
+        </div>
+        <!--Formulario de contacto-->
+        <form action="/enviar-mensaje" method="POST">
+            <label for="nom">Nombre:</label><br />
+            <input type="text" id="nom" name="nom" /><br />
+            <label for="telef">Teléfono:</label><br />
+            <input type="telef" id="telef" name="telef" /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" /><br />
+            <label for="mensaje">Mensaje:</label><br />
+            <textarea id="mensaje" name="mensaje"></textarea><br />
+            <input type="submit" value="Enviar mensaje" />
+          </form>
 
     </body>
 </html>

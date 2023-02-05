@@ -7,10 +7,13 @@
 body{
     display: grid;
     grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
 }
 h1{
     font-size: 4em;
+    text-align: center;
+}
+h3{
+    padding-top: 5px;
 }
 
 /**
@@ -22,7 +25,6 @@ nav{
     background-color: lightblue;
     font-size: 20px;
 }
-
 .menu-horizontal {
     list-style: none;
     display: flex;
@@ -31,11 +33,21 @@ nav{
 .menu-horizontal > li > a{
     display: block;
     padding: 20px 20px;
-    color: white;
+    color: black;
     text-decoration: none;
+}
+#logo{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+#nombre{
+    font-size: 25px;
+    font-weight: bold;
 }
 .menu-horizontal > li:hover{
     background-color: lightcoral;
+    text-decoration: underline;
 }
 .menu-vertical{
     position: absolute;
@@ -53,25 +65,26 @@ nav{
 }
 .menu-vertical li a{
     display: block;
-    color: white;
+    color: black;
     padding: 15px 15px;
 }
 /*
 CARRUSEL
 */
 #carrusel{
-    height: 30em;
+    height: 25em;
     overflow: hidden;
     z-index: 1;
 
 }
 .itemCarrusel{
-    height: 30em;
-    position: relative; 
+    height: 25em;
+    position:relative;
+    text-align: center;
 }
 
 .tarjetasCarrusel{
-    background-color: aqua;
+    background-color: lightblue;
     height: 100%;
 }
 
@@ -83,7 +96,7 @@ CARRUSEL
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px;
 }
 .icoCarr{
     height: 3em;
@@ -93,22 +106,21 @@ a{
     text-decoration: none;
 }
 .imgcarr{
-    width:100%;
+    width:80%;
     height:auto;
-
 }
 #c1{
     position: relative;
     border-radius: 50%;
-    width: 2em;
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
     background: lightblue;
     margin: 10px;
 }
 #c2{
     position: relative;
-    width: 2em;
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
     background: lightblue;
     margin: 10px;
     border-radius: 50%;
@@ -116,8 +128,8 @@ a{
 #c3{
     position: relative;
     border-radius: 50%;
-    width: 2em;
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
     background: lightblue;
     margin: 10px;
 }
@@ -127,7 +139,7 @@ a{
 }
 footer{
     width: 100%;
-    height: 10em;
+    height: 5em;
     background-color: black;
     color: white;
 }
@@ -138,7 +150,7 @@ p.autores{
 }
 
 .logoGene{
-    height: 9em;
+    height: 4em;
     width: auto;
     position: absolute;
     margin-top: -1.5em;
@@ -146,30 +158,32 @@ p.autores{
 }
 #sectionIndex{
     width: 100%;
-    height: 70em;
+    height: 20em;
     position: relative;
-    border-radius: 50%;
     text-align: center;
 }
-#tarjetaIndex1{
-    height: 30em;
-    width: 35%;
+#tablon{
     background-color: lightblue;
+}
+#tarjetaIndex1{
+    height: 10em;
+    width: 35%;
+    /*background-color: lightblue;*/
     position: absolute;
-    left: 8%;
-    border-radius: 5%;
-    border: 2px;
-    border-style: dashed;
+    left: 12%;
+    border-radius: 15px;
+    border: 3px;
+    border-style:double;
 }
 #tarjetaIndex2{
-    height: 30em;
+    height: 10em;
     width: 35%;
-    background-color: lightblue;
+    /*background-color: lightblue;*/
     position: absolute;
-    right: 8%;
-    border-radius: 5%;
-    border: 2px;
-    border-style:dashed
+    right: 12%;
+    border-radius: 15px;
+    border: 3px;
+    border-style:double;
 }
 #tarjetaIndex1 > p{
     text-align: justify;
@@ -179,9 +193,6 @@ p.autores{
 PAGINA DE CURSOS
 */
 
-h1{
-    text-align: center;
-}
 div.cursos{
     width: 80%;
     height: 50em;
@@ -257,3 +268,62 @@ ul.cursos{
     list-style: none;
     justify-content: space-around;
 }
+
+div.prologo{
+    width: 34%;
+    position: relative;
+    top: 15px;
+    margin: auto;
+    text-align: justify;
+    line-height: 20px;
+}
+
+/**Mapa de situacion */
+iframe{
+    position: relative;
+    margin: auto;
+    padding: 20px;
+}
+
+/** Formulario de contacto */
+form {
+    position: relative;
+    width: 500px;
+    top: 30px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  input[type="submit"] {
+    background-color: lightblue;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: lightcoral;
+  }
