@@ -1,94 +1,74 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <title>J&N Academy</title>
-        <link rel="stylesheet" type="text/css" href="assets/style.css"/>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul class="menu-horizontal">
-                    <li><a href="index.html" id="logo"><img src="img/cabecera.png" width="60" height="60" alt="logo"></a></li>
-                    <li><a href="index.html" id="nombre">J&N ACADEMY</a></li>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="cursos.html">Cursos</a></li>
-                    <li><a href="metod.html">Metodología</a></li>
-                    <li><a>About us</a>
-                        <ul class="menu-vertical">
-                            <li><a href="centro.html">El centro</a></li>
-                            <li><a href="docentes.html">Los docentes</a></li>
-                            <li><a href="contacto.html">Contacto</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-                <div id="carrusel">
-                    <div class="itemCarrusel" id="itemCarrusel-1">
-                        <div class="tarjetasCarrusel" id="tarjetasCarrusel-1">
-                            <img src="img/maincarr1.jpg" class="imgcarr" alt="">
-                        </div>
-                        <div class="flechasCarrusel" id="flechas1">
-                            <a href="#itemCarrusel-3"><i><img src="img/izqcarr.png" class="icoCarr" alt="flecha"></i></a>
-                            <a href="#itemCarrusel-2"><i><img src="img/dchacarr.png" class="icoCarr" alt="flecha"></i></a>
-                        </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J&N Academy</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <!-- Encabezado y menu -->
+    <header>
+        <div>
+            <img id="logo" src="img/logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="#">Quienes Somos</a>
+                    <ul class="submenu">
+                        <li><a href="centro.html">Centro</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </li>
+                <li><a href="aula.html">Aula Virtual</a></li>
+            </ul>
+        </nav>
+    </header>
 
-                        <div class="itemCarrusel" id="itemCarrusel-2">
-                            <div class="tarjetasCarrusel" id="tarjetasCarrusel-2">
-                                <img src="img/maincarr2.jpg" class="imgcarr" alt="">
-                            </div>
-                            <div class="flechasCarrusel" id="flechas2">
-                                <a href="#itemCarrusel-1"><i><img src="img/izqcarr.png" class="icoCarr" alt="flecha"></i></a>
-                                <a href="#itemCarrusel-3"><i><img src="img/dchacarr.png" class="icoCarr" alt="flecha"></i></a>
-                            </div>
-                        </div>
-                        <div class="itemCarrusel" id="itemCarrusel-3">
-                            <div class="tarjetasCarrusel" id="tarjetasCarrusel-3">
-                                <img src="img/maincarr3.jpg" class="imgcarr" alt="">
-                            </div>
-                            <div class="flechasCarrusel" id="flechas3">
-                                <a href="#itemCarrusel-2"><i><img src="img/izqcarr.png" class="icoCarr" alt="flecha"></i></a>
-                                <a href="#itemCarrusel-1"><i><img src="img/dchacarr.png" class="icoCarr" alt="flecha"></i></a>
-                            </div>
-                        </div>
-                    </div>
+    <main>
+        <!-- Carrusel de imagenes -->
+        <div id="carrusel-contenido">
+            <div id="carrusel-caja">
+                <div class="carrusel-elemento">
+                    <img class="imagenes" src="img/imagen1.jpg" alt="imagen">
                 </div>
-                <div class="circulos">
-                <a href="#itemCarrusel-1"><div id="c1"></div></a>
-                <a href="#itemCarrusel-2"><div id="c2"></div></a>
-                <a href="#itemCarrusel-3"><div id="c3"></div></a>
+                <div class="carrusel-elemento">
+                    <img class="imagenes" src="img/imagen2.jpg" alt="imagen">
                 </div>
-                <br>
-        </header>
-
-        <section id="sectionIndex">
-            <h1>J&N ACADEMY</h1>
-            <p>
-                Tu academia de confianza
-            </p>
+                <div class="carrusel-elemento">
+                    <img class="imagenes" src="img/imagen3.jpg" alt="imagen">
+                </div>
+            </div>
+        </div>
+        <div id="titulo">
+            <h2>J&N Academy</h2>
+            <h3>La academia de idiomas de referencia en Valencia</h3>
+        </div>
+            <table>
+                <tr>
+                    <td>¡Las inscripciones están a punto de empezar, pide información de precios y cursos cuanto antes!</td>
+                    <td><a>PINCHA AQUÍ</a> y rellena el formolario para obtener más información</td>
+                </tr>
+            </table>
             <br>
-            <section id="tablon">
-                <h2>TABLÓN DE ANUNCIOS</h2>
-                <article id="tarjetaIndex1">
-                    <h3> PRUEBAS DE CERTIFICACIÓN</h3>
-                    <p>Se ruega que los alumnos que se vayan a presentar durante el curso actual a las pruebas de certificación, que accedan al <a href="https://www.gva.es/es/inicio/procedimientos?id_proc=2540">siguiente enlace</a> para acceder a la información de matriculación o pregunten en secretaría.
-                    </p>
-                </article>
-                <article id="tarjetaIndex2">
-                    <h3> PREINSCRIPCIÓN 2023-2024</h3>
-                    <br/>
-                    <p>El plazo de preinscripción para el curso 2023-2024 se abrirá el día 02/05/2023. Se facilitará un enlace en este mismo espacio en los próximos días.
-                    </p>
-                </article>
-            </section>
-        </section>
-        <footer>
-            <p class="autores">
-                Juan Zarzuela González <br>
-                Natalia Brines Gimeno
-            <a href="https://www.gva.es/va/"><img class="logoGene" src="img/gva.jpg" alt=""></a>
-            </p>
+            <br>
+       
+    </main>
+    <footer>
+        <div id="autores">
+            <h5>Autores:</h5>
+            <p>Juan Zarzuela González</p>
+            <p>Natalia Brines Gimeno</p>
+        </div>
+        <div id="generalitat">
+            <p>Centro homologado por:</p>
+            <img src="img/logo_generalitat.png" alt="generalitat" width="8%">
+        </div>
+    </footer>
 
-        </footer>
-    </body>
+</body>
+
 </html>
