@@ -28,5 +28,28 @@
         </nav>
     </header>
 
+    <main>
+        <section id="datos">
+            <h2><u> Datos de contacto</u></h2>
+            <p> <img class="icono" src="img/ubicacion.png" alt="icono">Cl. Llano de Zaidia, 19. 46009 Valencia</p>
+            <p> <img class="icono" src="img/telefono.png" alt="icono"> 96123456</p>
+            <p> <img class="icono" src="img/email.png" alt="icono"> info@jynacademy.com</p>
+            <img id="social" src="img/social.jpg" alt="redes sociales">
+        </section>
+
+        <!--Formulario de contacto-->
+        <section id="formulario">
+        <form action="/enviar-mensaje" method="POST">
+            <label for="nom">Nombre:</label><br />
+            <input type="text" id="nom" name="nom" /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" /><br />
+            <label for="mensaje">Mensaje:</label><br />
+            <textarea id="mensaje" name="mensaje"></textarea><br />
+            <input type="submit" value="Enviar mensaje" />
+          </form>
+        </section>
+    </main>
+
 </body>
 </html>
