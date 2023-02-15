@@ -337,6 +337,26 @@ footer div p, h5{
   .accordion-toggle:checked + .accordion-header {
     background-color: #fff;
   }
+
+#botonPulsado{
+    width: 100%;
+    margin: 1em;
+}
+#botonPulsado button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    text-decoration: none;
+}
+#botonPulsado button:hover{
+    background-color: lightblue;
+    color: white;
+    text-decoration: none;
+}
+#botonPulsado a{
+    text-decoration: none;
+}
   /* Centro */
 .descrip{
     position: absolute;
@@ -358,24 +378,23 @@ footer div p, h5{
     margin-right: 5%;
 }
 
-iframe{
+iframe#mapa{
     margin-top: 0%;
     width: 25rem;
-    height: 15rem;
+    height: 14.8rem;
     border-radius: 20px;
 }
-table{
-    width: 100%;
-    align-items: center;
-    text-align: center;
-}
 .tableCentro{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
     padding: 0 10em;
     text-align: center;
 }
 td#centroTexto{
     text-align: justify;
-    padding: 0 1em;
+    padding: 0 0.8em;
 }
 td#centroTexto>p{
     border-style: double;
@@ -569,6 +588,8 @@ p {
 /* HORARIOS */
 
 table.horarios{
+    margin-left: auto;
+    margin-right: auto;
     padding: 2em 10em;
 }
 th{
@@ -579,5 +600,99 @@ th{
     border-style: solid;
 }
 .laCelda{
+
+    margin-left: auto;
+    margin-right: auto;
     border-style: solid;
+}
+
+.concursoVideos{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    text-align: center;
+}
+.concursoVideos td{
+    padding: 1em;
+    border-top-style: solid;
+}
+.textoGanadores{
+    border-style: solid;
+    padding: 10px;
+    width: 340px;
+}
+.concursoVideos tr{
+    padding: 2em 0em;
+
+}
+/*galeria videos*/
+.model{
+    display: none;
+}
+.model:target{
+    position:fixed;
+    display: block;
+    background: lightblue;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.model h3{
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.mVideo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mVideo a {
+    color: black;
+    font-size: 3em;
+    text-decoration: none;
+    margin: 1em;
+    border-style: solid;
+    border-radius: 50%;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mVideo a:hover {
+    background-color: black;
+    color: white;
+}
+
+.mVideo a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.mVideo video{
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 5px inset rgb(7, 7, 122);
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+.xVideo{
+    display: block;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    margin: 30px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 3px;
 }
