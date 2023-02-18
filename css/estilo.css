@@ -6,6 +6,7 @@
     margin-right: 0%;
 }
 .cabecerasTitulo{
+    
     text-align: center;
     font-size: 25px;
     padding-top: 1.5%;
@@ -43,12 +44,12 @@ nav{
 .menu li{
     display: inline-block;
     background-color: lightblue;
-    width: 15%;
+    width: 14.5%;
 }
 
 .menu li a{
     display: block;
-    padding: 10%;
+    padding: 11%;
     color: darkblue;
     text-decoration: none;
     text-align: center;
@@ -696,4 +697,76 @@ th{
     font-size: 20px;
     color: white;
     padding-top: 3px;
+}
+/* Fotos de la galeria */
+
+#galeria{
+    background: lightblue;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-size: 2em;
+    color: black
+}
+
+.galeriaIMG{
+    margin: auto;
+    list-style: none;
+    padding: 2em;
+    justify-content: space-around;
+}
+
+.mIMG{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mIMG img{
+    width: 640px;
+    height: 100%;
+    max-width: 100%;
+    border: 5px inset black;
+    box-sizing: border-box;
+}
+.mIMG a {
+    color: black;
+    font-size: 3em;
+    text-decoration: none;
+    margin: 1em;
+    border-style: solid;
+    border-radius: 50%;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mIMG a:hover {
+    background-color: black;
+    color: white;
+}
+
+.mIMG a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.ximg{
+    display: block;
+    background: white;
+    width: 30px;
+    height: 30px;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+    padding: 3px;
+    line-height: 25px;
+}
+
+.ximg:hover{
+    background-color: black;
+    color: white;
 }
