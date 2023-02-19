@@ -421,8 +421,9 @@ td#centroTexto>p{
 /* Datos de contacto */
 #datos{
     width: 40%;
-    margin-top: 5%;
-    margin-left: 20%;
+    padding-left: 5em;
+    margin-right: 0;
+
 }
 
 .icono{
@@ -442,14 +443,17 @@ td#centroTexto>p{
 }
 /* Formulario de contacto */
 #formulario{
-    position: absolute;
-    margin-top: -25%;
-    margin-left: 50%;
+    margin-left: 15em;
 }
-
+.contactoTabla{
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactoTabla td{
+    width: 40em;
+}
 form {
     width: 500px;
-    margin: 5% 10%;
     text-align: left;
     padding: 20px;
     border: 1px solid #ccc;
@@ -687,16 +691,21 @@ th{
 
 .xVideo{
     display: block;
-    background-color: black;
+    background: white;
     width: 30px;
     height: 30px;
-    margin: 30px auto;
-    margin-top: 50px;
+    margin: 20px auto;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 28px;
+    color: black;
+    padding: px;
+    line-height: 30px;
+}
+
+.xVideo:hover{
+    background-color: black;
     color: white;
-    padding-top: 3px;
 }
 /* Fotos de la galeria */
 
