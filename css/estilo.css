@@ -778,3 +778,15 @@ th{
     background-color: black;
     color: white;
 }
+.galeria_img
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.galeria_img img{
+    width: 400px;
+    height: 300px;
+
+}
