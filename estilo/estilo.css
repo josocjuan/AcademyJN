@@ -6,7 +6,7 @@
 body {
     background-color:#efefef;
   }
-  ul {
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,11 +14,11 @@ body {
     background-color: #efefef;
   }
   
-  li {
+   nav li {
     float: right;
   }
   
-  li a, .dropbtn {
+  nav li a, .dropbtn {
     display: inline-block;
     color: #276E90;
     text-align: center;
@@ -26,12 +26,12 @@ body {
     text-decoration: none;
   }
   
-  li a:hover, .dropdown:hover .dropbtn {
+  nav li a:hover, .dropdown:hover .dropbtn {
     text-decoration: underline;
     background-color: #cecfc9;
   }
   
-  li.dropdown {
+  nav li.dropdown {
     display: inline-block;
   }
   
@@ -80,7 +80,7 @@ body {
   }
 
 #headerTitulo{
-    font-size: 90px;
+    font-size: 6rem;
     color: #efefef;
     text-shadow: 5px 5px 20px rgba(0,0,0,0.4);
   }
@@ -91,8 +91,8 @@ body {
 }
 
 .cartaIndex{
-  height: 520px;
-  width: 300px;
+  height: 450px;
+  width: 250px;
   background-color: #FFFFFF;
   margin: 2em;
   overflow: hidden;
@@ -104,12 +104,12 @@ body {
 }
 .cartaIndex h3{
   font-weight: 500;
-  font-size: 30px;
-  margin-top: 8px;
+  font-size: 25px;
+  margin-top: 6px;
 
 }
 .cartaIndex img{
-  height: 350px;
+  height: 300px;
   width: auto;
   margin: 0;
 }
@@ -126,7 +126,7 @@ body {
 .cartaIndex div p{
   color: rgba(0,0,0,0.5);
   line-height: 1.5;;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: bold;
   padding: 10px;
 }
@@ -155,14 +155,13 @@ body {
 
 #indexPregunta{
   display: flex;
-  height: 1000px;
+  height: 550px;
   width: 100%;
   justify-content: right;
 }
 
 #lasOpiniones{
   display: flex;
-  flex-direction: column;
 }
 #espacioOpi{
   height: 100%;
@@ -174,36 +173,158 @@ body {
   background-color: #276E90;
 }
 #preguntaOpi h2{
+  padding-top: 10px;
   padding-left: 50px;
-  font-size: 80px;
+  font-size: 85px;
   color: #efefef;
   text-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .cartaVal{
   height: 200px;
-  width: 80%;
-  background-color: #FFFFFF;
-  margin: 2em;
+  width: 33%;
+  margin: 1em;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
   border-radius: 5px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  padding: 5px;
+}
+
+.cartaVal:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: translateY(-3%);
 }
 .cartaVal h3{
-  font-weight: 500;
-  font-size: 30px;
-  margin-top: 8px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-top: 10px;
 }
 
 .cartaVal div{
-  max-height: 150px;
+  max-height: 200px;
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
   flex-direction: column;
+  color: #FFFFFF;
+  overflow: scroll;
+}
+
+.cartaVal p{
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 0.2em;
+  text-align: right;
+}
+.cartaVal img{
+  width: 55px;
+  filter: blur(0.2px);
+}
+
+.contactaF{
+  background-color: #FFFFFF;
+  color: #276E90;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactaF h2{
+ font-size: 100px;
+ text-align: center;
+}
+
+.contactaF button{
+  font-size: 20px;
+  margin: 2em;
+  margin-top: 1em;
+  border-color: #276E90;
+  background-color: #FFFFFF;
+  color: #276E90;
+  font-weight: 700;
+  border-radius: 45px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  letter-spacing: 2px;
+}
+
+.contactaF button:hover{
+  background-color: #cecfc9;
+  font-weight: 900;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  background-color: #276E90;
+  color: #FFFFFF;
+}
+
+/* footer */
+footer{
+  display: flex;
+  height: 150px;
+  background-color: #276E90;
+  justify-content: space-between;
+  color: #FFFFFF;
+  align-items: center;
+}
+
+footer div{
+  padding: 1em;
+}
+
+.foot1 h4{
+  font-size: 25px;
+}
+
+.foot ul{
+  list-style: none;
+}
+.foot1 li{
+  font-size: 20px;
+  line-height: 30px;
+  list-style: none;
+  font-weight: 600;
+}
+
+.foot3 img{
+  height: 100px;
+  width: auto;
+}
+.foot2{
+  background-color: #efefef;
+  height: 50%;
+  border-radius: 20px;
+}
+
+.foot2 h4{
+  color: #276E90;
+}
+
+.lasRedes{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  align-items: center;
+}
+.foot2 img{
+  height: 40px;
+  padding: 3px 3px;
+}
+
+.foot2 img:hover{
+  height: 50px;
 }
 
 /*
