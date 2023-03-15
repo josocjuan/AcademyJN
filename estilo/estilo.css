@@ -190,7 +190,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  border-radius: 5px;
+  border-radius: 20px;
   border-style: solid;
   border-color: #FFFFFF;
   padding: 5px;
@@ -199,6 +199,7 @@ body {
 .cartaVal:hover{
   box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
   transform: translateY(-3%);
+  background-color: #526396;
 }
 .cartaVal h3{
   font-size: 40px;
@@ -367,18 +368,18 @@ footer div{
 }
 
 #serviciosAcademiaNiveles a{
-height: 200px;
+height: 150px;
 text-decoration: none;
 }
 
 #serviciosAcademiaNiveles h4{
-  font-size: 140px;
+  font-size: 90px;
   text-align: center;
 }
 
 .tarjetaAcaNivel{
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -391,8 +392,90 @@ text-decoration: none;
 .tarjetaAcaNivel:hover{
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
   transform: translateY(-3%);
+  background-color: #526396;
 }
 
 .tarjetaAcaNivel p{
   text-align: center;
+}
+
+#nivelesAcademia{
+  width: 100%;
+  height: 3000px;
+  background-color: #276E90;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nivelAca {
+  width: 100%;
+  height: 1000px;
+}
+
+.nivelAca h3{
+  margin-top: 20px;
+  color:#FFFFFF;
+  font-size: 130px;
+  text-decoration: underline;
+  text-align: center;
+}
+.nivelAca h5{
+  color:#FFFFFF;
+  font-size: 50px;
+  text-align: center;
+}
+#nivelesBasicos{
+  width: 100%;
+}
+
+.niveles{
+  display: flex;
+  justify-content: space-around;
+}
+
+.n1{
+  width: 45%;
+  height: 600px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 50px;
+  overflow: scroll;
+  box-shadow: 1px 3px 20px rgba(0,0,0,0.2);
+}
+
+.nivelAca h6{
+  color:#FFFFFF;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.n1 p{
+  padding: 25px 30px;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.n1 ul{
+  list-style-image: url('/img/check.png');
+  padding: 20px 90px;
+  color: #FFFFFF;
+  font-size: 35px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.n1 li{
+  margin-bottom: 10px;
+}
+
+.n1:hover{
+  transform: translateY(-3%);
+  box-shadow: 1px 5px 20px rgba(0,0,0,0.8);
+  background-color: #526396;
 }
