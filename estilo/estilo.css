@@ -456,7 +456,7 @@ text-decoration: none;
 .n1 p{
   padding: 25px 30px;
   color: #FFFFFF;
-  font-size: 25px;
+  font-size: 21px;
   font-weight: 300;
   text-align: justify;
 }
@@ -465,7 +465,7 @@ text-decoration: none;
   list-style-image: url('/img/check.png');
   padding: 20px 90px;
   color: #FFFFFF;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 400;
   margin-top: 20px;
 }
@@ -479,3 +479,6 @@ text-decoration: none;
   box-shadow: 1px 5px 20px rgba(0,0,0,0.8);
   background-color: #526396;
 }
+
+/* Repaso */
+
