@@ -482,3 +482,165 @@ text-decoration: none;
 
 /* Repaso */
 
+.tarjetaRepNivel{
+  height: 150px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #276E90;
+  color: #efefef;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tarjetaRepNivel:hover{
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
+  transform: translateY(-3%);
+  background-color: #526396;
+}
+
+.tarjetaRepNivel p{
+  text-align: center;
+}
+
+.nR{
+  width: 70%;
+  height: 600px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 50px;
+  overflow: scroll;
+  box-shadow: 1px 3px 20px rgba(0,0,0,0.2);
+}
+
+.nR p{
+  padding: 25px 30px;
+  color: #FFFFFF;
+  font-size: 21px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.nR ul{
+  list-style-image: url('/img/check.png');
+  padding: 20px 90px;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.nR li{
+  margin-bottom: 10px;
+}
+
+.nR:hover{
+  transform: translateY(-3%);
+  box-shadow: 1px 5px 20px rgba(0,0,0,0.8);
+  background-color: #526396;
+}
+
+/* TRADUCCIÓN */
+
+#serviciosTraduccion{
+  width: 100%;
+  height: 800px;
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#serviciosTraduccionTitulo{
+  font-size: 50px;
+  height: 150px;
+  text-align: center;
+}
+
+#serviciosTraduccionTitulo h3{
+  color: #276E90;
+  font-size: 70px;
+}
+
+#serviciosAcademiaTitulo h5{
+  color: black;
+  font-size: 30px;
+}
+
+#serviciosTraduccionNiveles{
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  overflow: scroll;
+  align-items: center;
+
+}
+
+#serviciosTraduccionNiveles a{
+height: 150px;
+text-decoration: none;
+}
+
+#serviciosTraduccionNiveles h4{
+  font-size: 45px;
+  text-align: center;
+}
+
+#serviciosTraduccion form{
+  width:700px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+#serviciosTraduccion form label{
+  width:272px;
+	font-weight:300 ;
+  padding: 3px;
+  font-size: 25px;
+	display:inline-block;
+}
+
+#serviciosTraduccion form input[type="text"],
+#serviciosTraduccion form input[type="number"],
+#serviciosTraduccion form input[type="date"],
+#serviciosTraduccion form input[type="email"]{
+	width:380px;
+  height: 25px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:10px 0;
+	display:inline-block;
+}
+
+#serviciosTraduccion form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+#serviciosTraduccion form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+#serviciosTraduccion textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+
