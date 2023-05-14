@@ -644,3 +644,43 @@ text-decoration: none;
 	display:block;
 }
 
+/* CONTACTO*/
+
+.contacto1art{
+  display: flex;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+
+}
+
+#contactoTitulo{
+  font-size: 69px;
+  height: 150px;
+  text-align: center;
+}
+
+#contactoTitulo h3{
+  color: #276E90;
+  font-size: 70px;
+}
+
+#contactoTitulo h5{
+  color: black;
+  font-size: 30px;
+}
+
+#contactoUbicacion{
+  display: flex;
+  justify-content: center;
+}
+
+#contactDivDiv{
+  width: 70%;
+  background-color: #276E90;
+  padding: 30px;
+  border-radius: 20px;
+}
+#contactDivDiv iframe{
+  border-radius: 20px;
+}
