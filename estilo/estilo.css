@@ -680,7 +680,17 @@ text-decoration: none;
   background-color: #276E90;
   padding: 30px;
   border-radius: 20px;
+  display: flex;
 }
 #contactDivDiv iframe{
   border-radius: 20px;
+}
+
+#contactoUbi{
+  padding: 20px;
+}
+
+#contactoUbi{
+  color: #FFFFFF;
+  font-size: 30px;
 }
