@@ -721,16 +721,13 @@ text-decoration: none;
   margin-left: 10px;
 }
 
-#contactoUbi a{
-
-}
 
 #contactoUbi h6:hover{
   background-color: #FFFFFF;
   color: #276E90;
 }
 
-#contactoUbi a:link, a:visited, a:active{
+#contactoUbi a:link, #contactoUbi a:visited, #contactoUbi a:active{
   text-decoration: none;
   color: #ffffff;
 }
