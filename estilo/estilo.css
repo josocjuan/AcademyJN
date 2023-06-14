@@ -13,11 +13,11 @@ body {
     overflow: hidden;
     background-color: #efefef;
   }
-  
+
    nav li {
     float: right;
   }
-  
+
   nav li a, .dropbtn {
     display: inline-block;
     color: #276E90;
@@ -25,16 +25,16 @@ body {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   nav li a:hover, .dropdown:hover .dropbtn {
     text-decoration: underline;
     background-color: #cecfc9;
   }
-  
+
   nav li.dropdown {
     display: inline-block;
   }
-  
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -43,7 +43,7 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
+
   .dropdown-content a {
     color: #276E90;
     padding: 12px 16px;
@@ -51,9 +51,9 @@ body {
     display: block;
     text-align: left;
   }
-  
+
   .dropdown-content a:hover {background-color: #cecfc9;}
-  
+
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -64,6 +64,17 @@ body {
     height: auto;
     margin-left: 10px;
   }
+
+.arriba img{
+  width: 50px;
+  position: fixed;
+  bottom: 5%;
+  right: 0.60%;
+}
+
+.arriba img:hover{
+  transform: translateY(-20%);
+}
 
   /*INDEX*/
 
@@ -100,7 +111,7 @@ body {
   flex-direction: column;
   box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
   border-radius: 5px;
-  
+
 }
 .cartaIndex h3{
   font-weight: 500;
@@ -155,7 +166,7 @@ body {
 
 #indexPregunta{
   display: flex;
-  height: 550px;
+  height: 350px;
   width: 100%;
   justify-content: right;
 }
@@ -175,7 +186,7 @@ body {
 #preguntaOpi h2{
   padding-top: 10px;
   padding-left: 50px;
-  font-size: 85px;
+  font-size: 50px;
   color: #efefef;
   text-shadow: 5px 5px 20px rgba(0,0,0,0.4);
   text-align: center;
@@ -184,9 +195,11 @@ body {
 }
 
 .cartaVal{
-  height: 200px;
-  width: 33%;
+  height: 150px;
+  width: 25%;
   margin: 1em;
+  margin-left: 8%;
+  margin-right: -5%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -199,23 +212,23 @@ body {
 .cartaVal:hover{
   box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
   transform: translateY(-3%);
-  background-color: #526396;
+  /*background-color: #526396;*/
+  border-color: yellow;
 }
 .cartaVal h3{
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   color: #FFFFFF;
   padding-top: 10px;
 }
 
 .cartaVal div{
-  max-height: 200px;
+  max-height: 150px;
   width: 100%;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   flex-direction: column;
   color: #FFFFFF;
-  overflow: scroll;
 }
 
 .cartaVal p{
@@ -240,7 +253,7 @@ body {
 }
 
 .contactaF h2{
- font-size: 100px;
+ font-size: 60px;
  text-align: center;
 }
 
@@ -403,7 +416,6 @@ text-decoration: none;
   width: 100%;
   height: 2500px;
   background-color: #276E90;
-
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -442,7 +454,7 @@ text-decoration: none;
   border-style: solid;
   border-radius: 20px;
   margin-top: 50px;
-  overflow: scroll;
+  /*overflow: scroll;*/
   box-shadow: 1px 3px 20px rgba(0,0,0,0.2);
 }
 
@@ -477,7 +489,8 @@ text-decoration: none;
 .n1:hover{
   transform: translateY(-3%);
   box-shadow: 1px 5px 20px rgba(0,0,0,0.8);
-  background-color: #526396;
+  /*background-color: #526396;*/
+  border-color: yellow;
 }
 
 /* Repaso */
@@ -504,6 +517,10 @@ text-decoration: none;
   text-align: center;
 }
 
+.nivelAca{
+  margin-top: 50px;
+}
+
 .nR{
   width: 70%;
   height: 600px;
@@ -511,7 +528,7 @@ text-decoration: none;
   border-style: solid;
   border-radius: 20px;
   margin-top: 50px;
-  overflow: scroll;
+  /*overflow: scroll;*/
   box-shadow: 1px 3px 20px rgba(0,0,0,0.2);
 }
 
@@ -539,7 +556,8 @@ text-decoration: none;
 .nR:hover{
   transform: translateY(-3%);
   box-shadow: 1px 5px 20px rgba(0,0,0,0.8);
-  background-color: #526396;
+  /*background-color: #526396;*/
+  border-color: yellow;
 }
 
 /* TRADUCCIÓN */
@@ -620,13 +638,14 @@ text-decoration: none;
 #serviciosTraduccion form input[type="submit"]{
 	width:100%;
 	padding:8px 16px;
-	margin-top:32px;
+	margin-top:15px;
+  margin-bottom: 25px;
 	border:1px solid #000;
 	border-radius:5px;
 	display:block;
 	color:#fff;
 	background-color:#000;
-} 
+}
 
 #serviciosTraduccion form input[type="submit"]:hover{
 	cursor:pointer;
@@ -637,7 +656,7 @@ text-decoration: none;
 	height:100px;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
-	background-color:#f6f6f6;			
+	background-color:#f6f6f6;
 	margin:8px 0;
 	/*resize: vertical | horizontal | none | both*/
 	resize:none;
@@ -782,7 +801,7 @@ text-decoration: none;
 	height:100px;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
-	background-color:#f6f6f6;			
+	background-color:#f6f6f6;
 	margin:8px 0;
 	/*resize: vertical | horizontal | none | both*/
 	resize:none;
@@ -932,5 +951,72 @@ color: #efefef;
   height: 200px;
   background-color: #276E90;
   display: flex;
-  
+  margin: 1%;
+  margin-left: 10%;
+}
+
+.elTextoTarjeta{
+  padding: 1%;
+}
+
+/*CENTRO*/
+
+.galeria {
+  height: calc( 600px + 3em);
+  width:900px;
+  margin:1em auto;
+  border: 1px solid #555;
+  position: relative;
+}
+
+.galeria img {
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.galeria input[type=radio] {
+  position: relative;
+  bottom: calc(-600px - 1.5em);
+  left: 400px;
+}
+
+.galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(5):checked ~ img:nth-of-type(5) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(6):checked ~ img:nth-of-type(6) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(7):checked ~ img:nth-of-type(7) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(8):checked ~ img:nth-of-type(8) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(9):checked ~ img:nth-of-type(9) {
+  opacity: 1;
 }
