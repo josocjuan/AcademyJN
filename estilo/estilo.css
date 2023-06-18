@@ -83,7 +83,7 @@ body {
   .indexHeader{
     display: flex;
     width: 100%;
-    height: 15em;
+    height: 10em;
     background-color: #276E90;
     color: black;
     justify-content: center;
@@ -91,7 +91,7 @@ body {
   }
 
 #headerTitulo{
-    font-size: 6rem;
+    font-size: 5rem;
     color: #efefef;
     text-shadow: 5px 5px 20px rgba(0,0,0,0.4);
   }
@@ -166,7 +166,7 @@ body {
 
 #indexPregunta{
   display: flex;
-  height: 350px;
+  height: 400px;
   width: 100%;
   justify-content: right;
 }
@@ -194,8 +194,12 @@ body {
   padding-bottom: 30px;
 }
 
+.opinadoraIndex{
+  font-weight: 100;
+}
+
 .cartaVal{
-  height: 150px;
+  height: 200px;
   width: 25%;
   margin: 1em;
   margin-left: 8%;
@@ -219,7 +223,7 @@ body {
   font-size: 30px;
   font-weight: 700;
   color: #FFFFFF;
-  padding-top: 10px;
+  padding-top: 40px;
 }
 
 .cartaVal div{
@@ -231,7 +235,7 @@ body {
   color: #FFFFFF;
 }
 
-.cartaVal p{
+.textoOpinadora{
   font-size: 16px;
   font-weight: 700;
   padding-top: 0.2em;
@@ -245,7 +249,7 @@ body {
 .contactaF{
   background-color: #FFFFFF;
   color: #276E90;
-  height: 350px;
+  height: 280px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -414,7 +418,7 @@ text-decoration: none;
 
 #nivelesAcademia{
   width: 100%;
-  height: 2500px;
+  height: 2200px;
   background-color: #276E90;
   display: flex;
   justify-content: center;
@@ -518,16 +522,16 @@ text-decoration: none;
 }
 
 .nivelAca{
-  margin-top: 50px;
+  margin-top:0px;
 }
 
 .nR{
   width: 70%;
-  height: 600px;
+  height: 500px;
   border-color: #FFFFFF;
   border-style: solid;
   border-radius: 20px;
-  margin-top: 50px;
+  margin-top: 20px;
   /*overflow: scroll;*/
   box-shadow: 1px 3px 20px rgba(0,0,0,0.2);
 }
@@ -535,7 +539,7 @@ text-decoration: none;
 .nR p{
   padding: 25px 30px;
   color: #FFFFFF;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 300;
   text-align: justify;
 }
@@ -544,7 +548,7 @@ text-decoration: none;
   list-style-image: url('/img/check.png');
   padding: 20px 90px;
   color: #FFFFFF;
-  font-size: 30px;
+  font-size:25px;
   font-weight: 400;
   margin-top: 20px;
 }
