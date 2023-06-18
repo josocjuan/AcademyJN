@@ -933,7 +933,7 @@ color: #efefef;
 
 #quienesTitulo{
   width: 100%;
-  height: 1000px;
+  height: 1300px;
   background-color: #efefef;
   display: flex;
   justify-content: space-evenly;
@@ -941,19 +941,30 @@ color: #efefef;
 }
 
 #equipoDocente{
-  display:flex;
+  width: 100%;
+  display: flex;
   justify-content: center;
+  flex-direction: row-reverse;
+}
+
+#tarjetasEquipo{
+  height: 1000px;
+  width: 80%;
+  display:flex;
+  justify-content: space-around;
   flex-direction: column;
 }
 
 .tarjetaEquipo{
-  width: 80%;
+  width: 100%;
   height: 200px;
   background-color: #276E90;
   display: flex;
   margin: 1%;
   margin-left: 10%;
 }
+
+
 
 .elTextoTarjeta{
   padding: 1%;
@@ -967,6 +978,7 @@ color: #efefef;
   margin:1em auto;
   border: 1px solid #555;
   position: relative;
+  overflow: scroll;
 }
 
 .galeria img {
@@ -1020,6 +1032,7 @@ color: #efefef;
 .galeria input[type=radio]:nth-of-type(9):checked ~ img:nth-of-type(9) {
   opacity: 1;
 }
+
 
 /*JOB OPPORTUNITIES*/
 
@@ -1183,3 +1196,26 @@ button:hover{
   background-color: white;
   color: #276E90;
 }
+.elTextoTarjeta{
+  color: #f6f6f6;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: scroll;
+}
+
+.elTextoTarjeta h2{
+font-size: 45px;
+}
+
+.elTextoTarjeta h3{
+  font-size: 30px;
+  font-weight: 100;
+  }
+
+  .elTextoTarjeta p{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+    width: 100%;
+
+    }
