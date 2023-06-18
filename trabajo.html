@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J&N Academy</title>
+  <link rel="stylesheet" href="estilo/estilo.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <a href="index.html"><img id="imgNav" src="img/logo.png"></a>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li class="dropdown">
+          <a href="centro.html" class="dropbtn">El centro</a>
+          <div class="dropdown-content">
+            <a href="quien.html">¿Quienes somos?</a>
+            <a href="recursos.html">Recursos</a>
+            <a href="trabajo.html">Job opportunities</a>
+          </div>
+        </li>
+        <li><a href="tarifas.html">Tarifas</a></li>
+        <li class="dropdown">
+          <a href="servicios.html" class="dropbtn">Servicios</a>
+          <div class="dropdown-content">
+            <a href="academia.html">Academia</a>
+            <a href="repaso.html">Repaso</a>
+            <a href="traduccion.html">Traducción</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="indexHeader">
+      <h1 id="headerTitulo">J&N Academy</h1>
+    </div>
+  </header>
+  <section id="trabajoPg">
+    <article>
+        <div id="trabajoTitulo">
+          <h3>Job opportunities</h3>
+          <h5>¿Te gustaría formar parte de nuestra plantilla?</h5>
+          <h5>Rellena el formulario y/o envíanos tu CV</h5>
+        </div>
+
+    <div id="contenedor">
+
+      <form>
+        <p class="medio">
+          <label for="nombre">Nombre</label>
+          <input type="text" autofocus="" name="nombre" placeholder="Nombre"  required>
+        </p>
+        <p class="medio">
+          <label>Apellidos</label>
+          <input type="text" placeholder="Apellidos" required>
+        </p>
+        <p class="entero">
+          <label>Correo electrónico</label>
+          <input type="email" name="mail" placeholder="correo@dominio.com" required>
+        </p>
+        <p class="titcheck">
+        <label>Idiomas que dominas:</label>
+        </p>
+        <p id="check">
+          <label for="español"> <input type="checkbox" id="español" name="español" value="español"> Español</label>
+          <label for="ingles"><input type="checkbox" id="ingles" name="ingles" value="ingles"> Inglés</label>
+          <label for="frances"><input type="checkbox" id="frances" name="frances" value="frances"> Francés</label>
+          <label for="aleman"><input type="checkbox" id="aleman" name="aleman" value="aleman"> Alemán</label>
+        </p>
+        <p class="medio">
+          <label>Años de experiencia</label>
+          <input type="number" min="0" max="10" step="1" placeholder="1" name="experiencia">
+        </p>
+        <p class="medio">
+          <label>Titulación oficial</label>
+          <input type="text" name="titoficial">
+        </p>
+        <p class="entero">
+          <label>comentarios</label>
+          <textarea></textarea>
+        </p>
+        <p class="titcv">
+          <label for="micv">Envíanos tu CV: </label>
+        </p>
+        <p id="cv">
+          <input type="file" id="micv" name="micv">
+        </p>
+          <button type="submit">Enviar</button>
+
+      </form>
+    </div>
+  </article>
+  </section>
+  <footer>
+    <div class="foot1">
+      <h4>Trabajo realizado por:</h4><br>
+      <ul>
+        <li>Juan Zarzuela</li>
+        <li>Natalia Brines</li>
+      </ul>
+    </div>
+    <div class="foot2">
+      <h4>Síguenos en nuestras redes</h4>
+      <div class="lasRedes">
+        <a href="#"><img src="img/insta.png"></a>
+        <a href="#"><img src="img/twitter.png"></a>
+        <a href="#"><img src="img/fb.png"></a>
+      </div>
+    </div>
+    <div class="foot3"><img src="img/gva.png"></div>
+  </footer>
+</body>
+<a class="arriba" href="#imgNav"><img src="img/arriba_azul.png" alt="volver arriba" title="volver arriba"></a>
+</html>
