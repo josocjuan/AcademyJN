@@ -1103,7 +1103,6 @@ color: #efefef;
 #contenedor label{
   padding: 5px 10px;
   display: inline-block;
-  text-transform: capitalize;
   font-size: 20px;
 }
 
@@ -1127,7 +1126,6 @@ form p{
 .titcheck{
   padding: 5px 10px;
   display: inline-block;
-  text-transform: capitalize;
   font-size: 20px;
   width: 25%;
   float: left;
@@ -1142,7 +1140,6 @@ form p{
   display: inline-block;
   padding-left: 15px;
   text-indent: -15px;
-  text-transform: capitalize;
   font-size: 15px;
   vertical-align: top;
 }
@@ -1180,7 +1177,6 @@ input:focus, .trabajoTextArea:focus{
 .titcv{
   padding: 5px 10px;
   display: inline-block;
-  text-transform: capitalize;
   font-size: 20px;
   width: 25%;
   float: left;
@@ -1190,7 +1186,6 @@ input:focus, .trabajoTextArea:focus{
   display: inline-block;
   padding-left: 15px;
   text-indent: -15px;
-  text-transform: capitalize;
   font-size: 15px;
   vertical-align: top;
 }
@@ -1205,7 +1200,6 @@ button#buttonTrabajo{
     font-size: 22px;
     border-radius: 5px;
     cursor: pointer;
-    text-transform: uppercase;
     font-weight: bolder;
     margin: 3%;
     margin-bottom: 50px;
