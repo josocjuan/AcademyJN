@@ -461,6 +461,7 @@ text-decoration: none;
   margin-top: 50px;
   /*overflow: scroll;*/
   box-shadow: 1px 3px 20px rgba(0,0,0,0.2);
+  color: #FFFFFF;
 }
 
 .nivelAca h6{
@@ -472,7 +473,6 @@ text-decoration: none;
 
 .n1 p{
   padding: 25px 30px;
-  color: #FFFFFF;
   font-size: 18px;
   font-weight: 300;
   text-align: justify;
@@ -494,7 +494,7 @@ text-decoration: none;
 .n1:hover{
   transform: translateY(-3%);
   box-shadow: 1px 5px 20px rgba(0,0,0,0.8);
-  /*background-color: #526396;*/
+  background-color: #103d52;
   border-color: yellow;
 }
 
@@ -562,7 +562,7 @@ text-decoration: none;
 .nR:hover{
   transform: translateY(-3%);
   box-shadow: 1px 5px 20px rgba(0,0,0,0.8);
-  /*background-color: #526396;*/
+  background-color: #103d52;
   border-color: yellow;
 }
 
@@ -1046,8 +1046,8 @@ color: #efefef;
   height: 1100px;
   background-color: #efefef;
   display: flex;
-  justify-content: space-evenly;
-  /*flex-direction: column;*/
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 #trabajoTitulo{
@@ -1059,20 +1059,34 @@ color: #efefef;
 #trabajoTitulo h3{
   color: #276E90;
   font-size: 70px;
+  padding: 20px;
+}
+
+.h5Trabajo{
+  width: 70%;
+  background-color: #276E90;
+  border-radius: 20px;
+}
+
+.contenedorTituloTrabajo{
+  display: flex;
+  justify-content: center;
 }
 
 #trabajoTitulo h5{
-  color: black;
+  color: #efefef;
   font-size: 35px;
+  padding: 5px;
+  text-align: center;
 }
 
-#contenedor{
+#contenedor{;
   color: #444;
   width: 70%;
   margin: 0 auto;
   padding: 30px;
   background-color:#276E90;
-  border-radius:10px;
+  border-radius: 20px;
   margin-bottom: 50px;
 }
 
