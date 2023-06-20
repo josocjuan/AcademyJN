@@ -216,8 +216,7 @@ body {
 .cartaVal:hover{
   box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
   transform: translateY(-3%);
-  /*background-color: #526396;*/
-  border-color: yellow;
+  background-color: #103d52;
 }
 .cartaVal h3{
   font-size: 30px;
@@ -390,7 +389,7 @@ text-decoration: none;
 }
 
 #serviciosAcademiaNiveles h4{
-  font-size: 90px;
+  font-size: 70px;
   text-align: center;
 }
 
@@ -428,13 +427,13 @@ text-decoration: none;
 
 .nivelAca {
   width: 100%;
-  height: 800px;
+  height: 700px;
 }
 
 .nivelAca h3{
   margin-top: 20px;
   color:#FFFFFF;
-  font-size: 70px;
+  font-size: 55px;
   text-decoration: underline;
   text-align: center;
 }
@@ -459,14 +458,13 @@ text-decoration: none;
   border-style: solid;
   border-radius: 20px;
   margin-top: 50px;
-  /*overflow: scroll;*/
   box-shadow: 1px 3px 20px rgba(0,0,0,0.2);
   color: #FFFFFF;
 }
 
 .nivelAca h6{
   color:#FFFFFF;
-  font-size: 80px;
+  font-size: 50px;
   text-align: center;
   padding-top: 20px;
 }
@@ -482,7 +480,7 @@ text-decoration: none;
   list-style-image: url('/img/check.png');
   padding: 20px 90px;
   color: #FFFFFF;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   margin-top: 20px;
 }
@@ -495,7 +493,6 @@ text-decoration: none;
   transform: translateY(-3%);
   box-shadow: 1px 5px 20px rgba(0,0,0,0.8);
   background-color: #103d52;
-  border-color: yellow;
 }
 
 /* Repaso */
@@ -563,17 +560,16 @@ text-decoration: none;
   transform: translateY(-3%);
   box-shadow: 1px 5px 20px rgba(0,0,0,0.8);
   background-color: #103d52;
-  border-color: yellow;
 }
 
 /* TRADUCCIÓN */
 
 #serviciosTraduccion{
   width: 100%;
-  height: 800px;
+  height: 850px;
   background-color: #efefef;
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
   flex-direction: column;
 }
 
@@ -615,9 +611,12 @@ text-decoration: none;
 #serviciosTraduccion form{
   width:700px;
 	padding:16px;
-	border-radius:10px;
+	border-radius:20px;
+  border-style: solid;
+  border-width: 30px;
 	margin:auto;
-	background-color:#ccc;
+	background-color:#efefef;
+  color: #276E90;
 }
 
 #serviciosTraduccion form label{
@@ -642,19 +641,22 @@ text-decoration: none;
 }
 
 #serviciosTraduccion form input[type="submit"]{
-	width:100%;
-	padding:8px 16px;
-	margin-top:15px;
-  margin-bottom: 25px;
-	border:1px solid #000;
-	border-radius:5px;
-	display:block;
-	color:#fff;
-	background-color:#000;
+	background: #276E90;
+    border-color: #276E90;
+    color: #fff;
+    min-height: 60px;
+    width: 100%;
+    padding: 0px 0px;
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
 }
 
 #serviciosTraduccion form input[type="submit"]:hover{
 	cursor:pointer;
+  transform: translateY(-3%);
+  box-shadow: 1px 5px 20px rgba(0,0,0,0.8);
 }
 
 #serviciosTraduccion textarea{
@@ -664,7 +666,6 @@ text-decoration: none;
 	border-radius:3px;
 	background-color:#f6f6f6;
 	margin:8px 0;
-	/*resize: vertical | horizontal | none | both*/
 	resize:none;
 	display:block;
 }
@@ -684,6 +685,7 @@ text-decoration: none;
 }
 
 #contactoTitulo{
+  margin-top: 5px;
   font-size: 69px;
   height: 150px;
   text-align: center;
@@ -809,7 +811,6 @@ text-decoration: none;
 	border-radius:3px;
 	background-color:#f6f6f6;
 	margin:8px 0;
-	/*resize: vertical | horizontal | none | both*/
 	resize:none;
 	display:block;
 }
@@ -921,11 +922,17 @@ color: #efefef;
   color: #efefef;
   display: flex;
   align-items: center;
+  text-decoration: none;
+}
+
+.posicionPreciosTarifas a:link, .posicionPreciosTarifas a:visited, .posicionPreciosTarifas a:active{
+  text-decoration: none;
 }
 
 #tarjetaTarifa h1{
   font-size: 30px;
   text-align: center;
+  text-decoration: none;
 }
 
 #tarjetaTarifa:hover{
@@ -934,6 +941,7 @@ color: #efefef;
   background-color: #efefef;
   color: #276E90;
 }
+
 
 /* Quienes somos */
 
@@ -969,11 +977,36 @@ color: #efefef;
   overflow: scroll;
 }
 
-
+.tarjetaEquipo:hover{
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
+  transform: translateY(-3%);
+}
 
 .elTextoTarjeta{
+  color: #f6f6f6;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: scroll;
   padding: 1%;
 }
+
+.elTextoTarjeta h2{
+font-size: 45px;
+}
+
+.elTextoTarjeta h3{
+  font-size: 30px;
+  font-weight: 100;
+  }
+
+.elTextoTarjeta p{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+    width: 100%;
+
+ }
+
 
 /*CENTRO*/
 
@@ -1080,7 +1113,7 @@ color: #efefef;
   text-align: center;
 }
 
-#contenedor{;
+#contenedor{
   color: #444;
   width: 70%;
   margin: 0 auto;
@@ -1205,9 +1238,9 @@ button#buttonTrabajo{
     margin-bottom: 50px;
 }
 
-button:hover{
-  background-color: white;
-  color: #276E90;
+#buttonTrabajo:hover{
+  transform: translateY(-3%);
+  box-shadow: 1px 5px 20px rgba(0,0,0,0.8);
 }
 .elTextoTarjeta{
   color: #f6f6f6;
